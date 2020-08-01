@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupiter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .bggreen {
+            background: #00BA73;
+        }
+        
+        .color {
+            color: #00BA73;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <div class="h-screen bggreen">
+        <nav class="flex items-center justify-between flex-wrap bg-white-500 py-6 lg:px-20 px-6">
+            <div class="flex items-center flex-shrink-0 mr-6">
+                <a href="#"><span class="text-white font-semibold">Jupiter</span></a>
+            </div>
+            <!-- hamburger menu -->
+            <div class="block lg:hidden" id="menu-togle">
+                <button id="menuBtn" onclick="navToggle();" type="button" class="flex items-center px-3 py-2 rounded text-white border-none hover:text-white">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+            </div>
+            <!-- nav-links -->
+            <div id="menu" class="w-full hidden flex lg:flex lg:items-center lg:justify-between lg:w-auto media">
+                <div class="text-sm">
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-8">
+            About Us
+          </a>
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-8">
+            Services
+          </a>
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-8">
+            Plans
+          </a>
+                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black">
+            Contact
+          </a>
+                </div>
+                <div class="lg:flex lg:items-center lg:hidden">
+                    <div>
+                        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-green-800 mt-4 lg:mt-0">Login</a>
+                    </div>
+                    <div class="lg:ml-5">
+                        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-black bg-white border-transparent hover:border-transparent hover:text-white hover:bg-green-800 mt-4 lg:mt-0">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:flex lg:items-center hidden">
+                <div>
+                    <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-green-800 mt-4 lg:mt-0">Login</a>
+                </div>
+                <div class="lg:ml-5">
+                    <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-black bg-white border-transparent hover:border-transparent hover:text-white hover:bg-green-800 mt-4 lg:mt-0">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+        <!-- section1 -->
+        <div class="lg:px-20 px-6 lg:flex lg:items-start lg:justify-between mt-16 ">
+            <div class="w-full lg:text-left  text-center">
+                <div class="text-4xl font-bold text-white mt-6">
+                    Dear soujourner <br> welcome to the end,<br> of your energy monitoring <br> problems
+                </div>
+                <ul class="lg:flex lg:justify-start flex mt-2 text-white justify-center">
+                    <li class="pr-4">Fast</li>
+                    <li class="pr-4">Efficient</li>
+                    <li class="">User Friendly</li>
+                </ul>
+            </div>
+            <div class="lg:block hidden">
+                <img class="" src="img/iPhone%2011%20Pro%20Max%20-%201%20(1)_iphonexspacegrey_portrait%201.png" alt="img">
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col items-center justify-center mt-10">
+        <div class="lg:flex md:flex block lg:items-center">
+            <img class="lg:block md:block hidden" src="img/iPhone%2011%20Pro%20Max%20-%201%20(1)_iphonexspacegrey_portrait%202.png" alt="">
+            <img class="lg:hidden md:hidden w-60" src="img/1.png" alt="">
+            <img class="lg:hidden md:hidden w-60" src="img/2.png" alt="">
+            <img class="lg:-ml-24 md:-ml-24 lg:block md:block hidden" src="img/iPhone%2011%20Pro%20Max%20-%202%20(2)_iphonexspacegrey_portrait%201.png" alt="">
+        </div>
+        <div class="flex flex-col items-center mb-20 mt-10">
+            <h2 class="text-center lg:text-3xl text-xl mb-8 px-6">
+                With Jupiter, all your energy <br> consumption records are <br> not only accurate, they are <br> real time. At Jupiter, we believe in results. <br> We have shown that over the <br> years we have been in exixtence
+            </h2>
+            <button class="bg-green-500 w-1/2 hover:bg-green-700 text-white font-bold py-3 px-4 rounded">
+        Register Now
+      </button>
+        </div>
+        <div class="lg:flex lg:justify-between w-full lg:px-20">
+            <div class="text-center mb-8 lg:leading-10 leading-none">
+                <h1 class="font-bold text-6xl color mb-2">4M+</h1>
+                <h2 class="text-4xl font-bold ">Downloads</h2>
+            </div>
+            <div class="text-center mb-8 lg:leading-10 leading-none">
+                <h1 class="font-bold text-6xl color mb-2">2.9M+</h1>
+                <h2 class="text-4xl font-bold ">Users</h2>
+            </div>
+            <div class="text-center mb-8 lg:leading-10 leading-none">
+                <h1 class="font-bold text-6xl color mb-2">800KWh</h1>
+                <h2 class="text-4xl font-bold ">Raised</h2>
+            </div>
+        </div>
+
+        <div class="lg:flex block lg:justify-between w-full lg:px-20 px-6 lg:my-20 my-12 cursor-pointer">
+            <img class="lg:mb-0 mb-8" src="img/image%202.png" alt="img">
+            <img class="" src="img/image%203.png" alt="img">
+        </div>
+
+        <div class="lg:flex lg:justify-between lg:items-center lg:px-20 px-6 w-full mb-20">
+            <div class="flex flex-col items-center justify-center">
+                <img src="img/Shell.png" alt="img">
+                <h1 class="text-center lg:text-3xl text-xl font-semibold lg:my-8 my-4">“We could not have done it <br> any better ourselves”
+                </h1>
+                <img class="w-30 " src="img/star.png" alt="img">
+            </div>
+            <div class="flex flex-col items-center justify-center mt-10">
+                <img src="img/Tesco.png" alt="img">
+                <h1 class="text-center lg:text-3xl text-2xl   lg:my-10 my-8  font-semibold">“Odins, beard, wow”</h1>
+                <img class="w-30" src="img/star.png" alt="img">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bggreen lg:flex lg:items-center lg:justify-between lg:p-20 px-6 py-16">
+        <a href="#"><span class="lg:block hidden text-white text-2xl font-semibold">Jupiter</span></a>
+        <div class="text-center">
+            <a class="block hover:text-black mb-4 text-xl text-white" href="#">About Us</a>
+            <a class="block hover:text-black mb-4 text-xl text-white" href="#">Services</a>
+            <a class="block hover:text-black mb-4 text-xl text-white" href="#">Plans</a>
+            <a class="block hover:text-black lg:mb-0 mb-4 text-xl text-white" href="#">Contact</a>
+        </div>
+        <div>
+            <h1 class="text-center text-white lg:mb-2 mb-4">Follow Us On:</h1>
+            <div class="flex items-center lg:justify-between justify-center ">
+                <a href="#"><img class="mr-4 lg:w-12 w-10" src="img/FAcebook.png" alt="icon"></a>
+                <a href="#"><img class="mr-4 lg:w-12 w-10" src="img/Twitter.png" alt="icon"></a>
+                <a href="#"><img class="mr-4 lg:w-12 w-10" src="img/Instagram.png" alt="icon"> </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function navToggle() {
+            var btn = document.getElementById('menuBtn');
+            var nav = document.getElementById('menu');
+
+            btn.classList.toggle('open');
+            nav.classList.toggle('flex');
+            nav.classList.toggle('hidden');
+        }
+    </script>
+
+</body>
+
+</html>
